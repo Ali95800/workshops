@@ -1,0 +1,39 @@
+body{
+
+    margin: 0;/* en haut, a droite, en bas et a gauche*/
+
+}
+
+.boite{
+    border-radius: 20%;
+
+    height: 10vh; /* vh = viewport height */
+
+    width: 5vw; /*vw = viewport width */
+
+    padding: 5vh;
+
+    background-image: url(../img/gaara_gif.gif);
+
+    background-size: cover; /*etire l'image pour quelle rentre dans la balise*/
+
+    border: 2px solid black;
+
+    margin: 2vh;
+
+    float: left; /*effet flottant ca sort les elements du flux naturel de la page les places les uns a coté des autres*/
+
+    transition: margin 0.5s; /* augmente le margin en 0.5s grace a :hover*/
+}
+    .boite:hover{/*pseudo class qui applique une efet au surval de la souris*/
+        margin-top: 10vh;
+}
+.clear{
+    clear: both;/*des 2 cotés*/
+}
+div.boite:nth-child(odd){
+    background-color: rgb(72, 255, 133);
+}
+div.boite:nth-child(even){
+    background-color: rgb(153, 0, 255);
+}

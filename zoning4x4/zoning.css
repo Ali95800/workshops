@@ -1,0 +1,277 @@
+body{
+
+    font-size: 25px;
+
+ 
+
+}
+
+p{
+    line-height: 95px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    background-color: turquoise;
+    text-align: center;
+
+
+}
+header{
+    background-color: rgb(182, 142, 83);
+
+    color: white;
+
+    height: 100px;
+}
+
+ 
+
+nav{
+
+    background-color: rgb(65, 64, 64);
+
+    height: 30px;
+
+    color: white;
+
+}
+
+section{
+
+    background-color:rgb(132, 250, 230) ;
+
+    height: 30%;
+
+ 
+
+    margin: 20px;
+
+ 
+
+}
+
+
+ 
+
+.a, .b, .c, .d{
+
+    width: 25%;
+
+    height: 125px;
+
+    float: left;
+
+    display: block;
+
+    text-align: center;
+
+    background-color: rgb(255, 194, 159);
+
+    color: white;
+
+}
+
+ 
+
+.a{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.b{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.c{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.d{
+
+    
+
+    border: 1px solid white;
+
+}
+
+ 
+
+.e, .f, .g, .h{
+
+    width: 24.5%;
+
+    height: 125px;
+
+    float: right;
+
+    text-align: center;
+
+    margin-top: -126px;
+
+    background-color: rgba(36, 69, 82, 0.637);
+
+    color: white;
+
+}
+
+ 
+
+.e{
+
+
+    border: 1px solid white;
+
+}
+
+.f{
+
+
+    border: 1px solid white;
+
+}
+
+.g{
+
+
+    border: 1px solid white;
+
+}
+
+.h{
+
+
+    border: 1px solid white;
+
+}
+
+ 
+
+.i, .j, .k, .l{
+
+    width: 25%;
+
+    height: 125px;
+
+    float: left;
+
+    text-align: center;
+
+    background-color: black;
+
+    color: white;
+
+}
+
+ 
+
+.i{
+
+
+    border: 1px solid white;
+
+}
+
+.j{
+
+
+    border: 1px solid white;
+
+}
+
+.k{
+
+
+    border: 1px solid white;
+
+}
+
+.l{
+
+
+    border: 1px solid white;
+
+}
+
+ 
+
+.m, .n, .o, .p{
+
+    width: 24.5%;
+
+    height: 125px;
+
+    float: right;
+
+    text-align: center;
+
+    margin-top: -125px;
+
+    color: white;
+
+    background-color: rgb(240, 209, 137);
+
+
+}
+
+ 
+
+.m{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.n{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.o{
+
+    
+
+    border: 1px solid white;
+
+}
+
+.p{
+
+
+    border: 1px solid white;
+
+}
+
+
+
+.clear{
+
+ 
+
+    clear: both;
+
+}
+
+footer{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    height: 100px;
+
+}
