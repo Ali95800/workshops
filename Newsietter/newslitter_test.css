@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+    width: 33%;
+    padding: 10px auto;
+    border: rgb(71, 71, 71) 1px solid;
+    margin-left: 33%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: black;
+
+
+}
+
+nav{
+    background-color: black;
+    padding: 0 0.5em;
+    position: absolute;
+    top: 26.1%;
+    left: 40%;
+    text-align: center;
+    margin: 0 0 20px;
+    color: rgb(255, 255, 255);
+}
+
+nav a{
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 2.7em;
+    padding: 0em 2em;
+    font-size: 1em;
+    transition: 0.35s;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+ a{
+     color: white;
+     text-align: center;
+ }
+footer{
+    bottom: 0%;
+}
