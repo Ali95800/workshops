@@ -1,0 +1,125 @@
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 5em;
+}
+
+marquee{
+    border: 1px white solid;
+}
+
+header{
+    background: linear-gradient(rgb(45, 253, 149) ,rgb(34,193,195));
+    color:white;
+    margin:  -8px -8px 0;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 1em;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+h1{
+    margin-left: -43em;
+}
+
+
+/*---------------- fin header----------------*/
+
+.faux_body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container2, .container3, .container4{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 1% 10%;
+    border: 1px solid black;
+    border-radius: 10px ;
+    height: 25em;
+}
+
+.container2{
+    background: linear-gradient(rgb(191,129,148), rgb(86,166,241));  
+    text-align: left;
+}
+.container3{
+ background: linear-gradient(rgb(97,227,194) ,rgb(70,134,195)) ; 
+ text-align: center;
+}
+
+.container4{
+    background: linear-gradient(rgb(226,132,23), rgb(92,144,181));
+    text-align: right;
+}
+
+p{
+    width: 45%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*---------------- Fin body -----------------*/
+
+footer{
+    height: 5em;
+    margin: 0 -8px -8px;
+    background: linear-gradient(rgb(45, 253, 149) ,rgb(34,193,195));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#social ul{
+    float: right;
+    margin-right: 50px;
+}
+
+#social li{
+    display: inline-block;
+    text-align: right;
+    margin: 0 5px;
+    color: #ffffff;
+}
+ 
+#social{
+    font-size: 1em;
+}
+
+@media (min-widht: 768px){
+    .zone-adaptadive{
+        width: 750px;
+    }
+}
+
+@media (min-widht: 992px){
+    .zone-adaptadive{
+        width: 970px;
+    }
+}
+
+@media (min-widht: 1200px){
+    .zone-adaptadive{
+        width: 1170px;
+    }
+}
+
+
