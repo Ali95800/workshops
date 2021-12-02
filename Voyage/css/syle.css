@@ -48,12 +48,14 @@ h1{
 .container2, .container3, .container4{
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: space-around;
     margin: 1% 10%;
     border: 1px solid black;
     border-radius: 10px ;
     height: 25em;
+    flex-wrap: wrap;
+    overflow: auto;
+    
 }
 
 .container2{
@@ -72,8 +74,15 @@ h1{
 
 p{
     width: 45%;
+    height: auto;
     color: white;
     text-shadow: 1px 1px 1px black;
+    flex-wrap: wrap;
+}
+
+img{
+    display: flex;
+    
 }
 
 /*---------------- Fin body -----------------*/
@@ -104,20 +113,25 @@ footer{
     font-size: 1em;
 }
 
+@media (min-widht: 300px){
+    .zone-adaptative{
+        width: 300px;
+    }
+}
 @media (min-widht: 768px){
-    .zone-adaptadive{
+    .zone-adaptative{
         width: 750px;
     }
 }
 
 @media (min-widht: 992px){
-    .zone-adaptadive{
+    .zone-adaptative{
         width: 970px;
     }
 }
 
 @media (min-widht: 1200px){
-    .zone-adaptadive{
+    .zone-adaptative{
         width: 1170px;
     }
 }
