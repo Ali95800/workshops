@@ -15,6 +15,7 @@ header{
     background: linear-gradient(rgb(45, 253, 149) ,rgb(34,193,195));
     color:white;
     margin:  -8px -8px 0;
+    height: auto;
 }
 
 nav{
@@ -32,8 +33,9 @@ a{
     margin: 0 10px;
 }
 
-h1{
-    margin-left: -43em;
+.titre{
+    display: flex;
+    padding: 10px;
 }
 
 
@@ -45,23 +47,28 @@ h1{
     align-content: center;
 }
 
+.faux_body img{
+    border-radius: 50%;
+    width: 20%;
+    height: 65%;
+}
+
 .container2, .container3, .container4{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 1% 10%;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px ;
-    height: 25em;
+    height:25em ;
     flex-wrap: wrap;
-    overflow: auto;
-    
 }
 
 .container2{
     background: linear-gradient(rgb(191,129,148), rgb(86,166,241));  
     text-align: left;
 }
+
 .container3{
  background: linear-gradient(rgb(97,227,194) ,rgb(70,134,195)) ; 
  text-align: center;
@@ -72,17 +79,14 @@ h1{
     text-align: right;
 }
 
+
+
 p{
     width: 45%;
     height: auto;
     color: white;
     text-shadow: 1px 1px 1px black;
     flex-wrap: wrap;
-}
-
-img{
-    display: flex;
-    
 }
 
 /*---------------- Fin body -----------------*/
@@ -113,27 +117,37 @@ footer{
     font-size: 1em;
 }
 
-@media (min-widht: 300px){
-    .zone-adaptative{
-        width: 300px;
+@media (max-width: 768px) {
+    
+    .container2, .container3, .container4{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    footer{
+        height: auto;
+    }
+    nav ul li{
+        display: flex;
+    }
+    h1{
+        margin: auto;
     }
 }
-@media (min-widht: 768px){
-    .zone-adaptative{
-        width: 750px;
+@media (max-width: 368px) {
+    .container2, .container3, .container4{
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-}
+    footer{
+        height: auto;
+    }
+    nav ul li{
+        display: flex;
+    }
+    h1{
+        margin: auto;
+    }
 
-@media (min-widht: 992px){
-    .zone-adaptative{
-        width: 970px;
-    }
 }
-
-@media (min-widht: 1200px){
-    .zone-adaptative{
-        width: 1170px;
-    }
-}
-
 
