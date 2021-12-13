@@ -1,3 +1,7 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .navbar-dark .navbar-brand {
     font-family: playfair Display;
 }
@@ -16,7 +20,7 @@ i{
 
 i#fleche{
     top: -2vw;
-    left: 47vw;
+    left: 48.5vw;
     width: 3em;
     height: 3em;
     border-right: 0.3em solid #000000;
@@ -31,10 +35,33 @@ i#fleche{
     line-height: 70px;
 }
 
+.fleche{
+    display: flex;
+    width: 80px;
+    font-size: xx-small;
+    color: orange;
+    float: right;
+    margin: auto 100px auto;
+}
+
 .card{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.card .titre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre h4{
+    background-color: rgb(255, 75, 75);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    font-size: .7em;
+    padding-top: 9px;
+    text-align: center;
 }
 
 .card section{
@@ -132,17 +159,23 @@ i#fleche{
 .contact{
     margin: 0 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .formulaire{
     width: 50%;
+    height: auto;
+
 }
 
 .formulaire .taille{
-    width: 45%;
-    display: inline;
-    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taille .form-group{
+    width: 395px;
 }
 
 footer{
